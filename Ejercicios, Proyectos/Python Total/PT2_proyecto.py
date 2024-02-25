@@ -1,0 +1,5 @@
+print("Bienvenido al cálculo de comisiones!")
+nombre = input("Ingrese su nombre: ")
+ventas = float(input("Ingrese sus ventas del mes: $"))
+ganancia = round((ventas*13)/100, 2)
+print(f"Ok {nombre}, este mes ganaste ${ganancia}! Felicidades.")

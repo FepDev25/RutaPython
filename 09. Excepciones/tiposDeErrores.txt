@@ -1,0 +1,17 @@
+BaseException
+    Exception
+        ArithmeticError
+            ZeroDivisionError
+        OSError
+            FileNotFoundError
+            PermissionError
+        RuntimeError
+        LookupError
+            IndexError
+            KeyError
+        SyntaxError
+            IndentationError
+        TypeError
+        ValueError
+
+    Y muchos mas
